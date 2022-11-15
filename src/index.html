@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="../dist/output.css" />
     <link rel="stylesheet" href="./in.css" />
     <title>Document</title>
@@ -42,15 +43,15 @@
   
       <!-- navigation -->
 
-      <div class="container m-auto lg:px-20 p-5 flex justify-between items-center lg:justify-between lg:items-center sm:6.5 w-full lg:mt-0 md:mt-0 sm:mt-0 mt-0 px-5"
+      <div class="container m-auto lg:px-20 lg:pt-[45px] flex justify-between items-center lg:justify-between lg:items-center sm:6.5 w-full pt-4 sm:mt-0 mt-0 px-5"
       >
         <div class=" flex gap-5 justify-between items-center">
           <img 
-            class="toggle  lg:hidden w-6 cursor-pointer  h-7 relative group" 
+            class="toggle  lg:hidden w-6 cursor-pointer  h-7  group" 
             src="/image/toggle.svg"
             alt=""
           />
-          <div class="hidden navlink   bg-white " >
+          <div class="hidden navlink  bg-white top-0 flex-col absolute left-0 w-[300px] z-50 duration-1000 " >
             <img
             class="lg:w-[274px] lg:h-12 m-4 h-[28px] w-[158px] hover:bg-lightblue"
             src="/image/logo.svg"
@@ -61,7 +62,7 @@
             <a class="w-full text-lg p-4"  href="">Talk to Sales</a>
             <a class="w-full txet-lg p-4"  href="">Login</a>
           </div>
-          <img class="close absolute hidden top-5  left-80 h-5 w-5 cursor-pointer"  src="/image/close.svg" alt="">
+          <img class="close absolute hidden top-0  left-80 h-5 w-5 cursor-pointer"  src="/image/close.svg" alt="">
           <img
             class="lg:w-[274px] lg:h-12  h-[28px] w-[158px] "
             src="/image/logo.svg"
@@ -102,19 +103,20 @@
             <div class="w-1 h-[2px] bg-blue hover:text-blue"></div>
           </div>
         </div>
+
+        <button
+        class="sm:w-[111px] sm:h-[53px] w-[95px] h-12 hover:text-white font-bold py-2 px-4 rounded border-lightblue border-2 lg:text-lightblue sm:text-red-600 text-violet-700 md:text-green-900 hover:bg-[#3E9FE3] transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-700 ..."
+      >
+        Sign Up
+      </button>
       </div>
   
-          <button
-            class="sm:w-[111px] sm:h-[53px] w-[95px] h-12 hover:text-white font-bold py-2 px-4 rounded border-lightblue border-2 lg:text-lightblue sm:text-red-600 text-violet-700 md:text-green-900 hover:bg-[#3E9FE3] transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-700 ..."
-          >
-            Sign Up
-          </button>
       </div>
 
       <!-- sec A -->
 
       <div
-        class="container m-auto lg:px-20 lg:py-10 p-5 flex flex-col gap-[10px] px-5"
+        class="container m-auto lg:px-20 lg:py-10 p-5 flex flex-col gap-[10px] px-5 lg:mt-[38px]"
       >
         <img
           class="lg:flex lg:w-[95px] lg:h-[95px] sm:hidden hidden"
@@ -122,7 +124,7 @@
           alt=""
         />
         <p
-          class="lg:text-6xl sm:text-[50px] text-[40px] font-bold leading-[56px] lg:pt-7 sm:mt-20"
+          class="lg:text-6xl sm:text-[50px] text-[40px] font-bold leading-[56px] lg:pt-0 sm:mt-20 lg:mt-10"
         >
           Pricing Information
         </p>
@@ -130,7 +132,7 @@
           How it Works
         </p>
         <p
-          class="lg:text-[22px] text-[18px] lg:pt-3 sm:pt-1 md:container lg:h-[148px]"
+          class="lg:text-[22px] text-[18px] sm:pt-1 md:container lg:h-[148px]"
         >
           The price is per home built and we will space platform per user until
           the warranty home period expires. For example if it takes you 10
@@ -144,7 +146,7 @@
       <!-- sec B -->
 
       <div
-        class="container lg:px-20 lg:py-0 p-5 lg:mt-8 lg:mb-10 text-center px-5 m-auto"
+        class="container lg:px-20 lg:py-0 p-5 lg:mt-6  lg:mb-10 text-center px-7 md:my-7 m-auto"
       >
         <p
           class="font-medium lg:text-[36px] sm:text-[40px] text-[26px] leading-[48px] sm:pt-[50px]"
@@ -155,7 +157,7 @@
           class="m-auto sm:w-[444px] w-[312px] h-[44px] mt-5 mb-5 lg:h-[44px] border-2 border-[#D7DCF0] rounded-[22px] flex justify-between items-center "
         >
           <button
-            class="btn select sm:w-[111px] w-[78px] h-[44px] "
+            class="btn select sm:w-[111px] w-[78px] h-[44px]"
           >
             &lt25
       </button>
@@ -186,7 +188,7 @@
       sm:flex sm:justify-center sm:items-center sm:gap-[50px] -->
 
       <div
-        class="container m-auto lg:px-20 lg:py-10 p-5 lg:flex lg:justify-center lg:items-center lg:gap-[50px] md:gap-[10px] sm:gap-5 gap-40 sm:flex sm:justify-center sm:items-center px-5  "
+        class="container m-auto lg:px-20 lg:py-10 p-5 lg:flex lg:justify-center lg:items-center lg:gap-[50px] md:gap-0 sm:gap-5 gap-40 sm:flex sm:justify-center sm:items-center px-5  "
       >
         <div
           class="relative overflow-hidden lg:w-[292px] mx-auto lg:m-0 w-[298px] h-[662px] lg:h-[673px] rounded-[26px] py-8 px-[31px] bg-white hover:bg-lightblue group hover:text-white border-[1px] border-bordergray hover:shadow-2xl mb-9"
@@ -196,8 +198,8 @@
           >
             Professional
           </p>
-          <p class="lg:text-4xl lg:font-black mt-6">
-            $299<span class="text-[17px] text-gray group-hover:text-white"
+          <p class="text-4xl lg:font-black mt-6">
+            $299<span class="text-[17px]  group-hover:text-white text-graytext"
               > 	&#47; home</span
             >
           </p>
@@ -210,7 +212,7 @@
             Features & <br />Integrations
           </p>
           <ul
-            class="flex flex-col gap-2 pt-4 text-gray group-hover:text-white"
+            class="flex flex-col gap-2 pt-4 text-gray group-hover:text-white text-graytext"
           >
             <li class="flex gap-[10px] text-opacity-10">
               <img
@@ -277,7 +279,7 @@
             </li>
           </ul>
           <button
-            class="w-[235px] h-[45px] bg-blue-100 group-hover:bg-white mt-10 rounded-lg text-lightblue leading-5 font-bold"
+            class="w-[235px] bg-azure h-[45px] bg-blue-100 group-hover:bg-white mt-10 rounded-lg text-lightblue leading-5 font-bold"
           >
             Sign Up
           </button>
@@ -292,8 +294,8 @@
           >
             Premium
           </p>
-          <p class="lg:text-4xl lg:font-black mt-6">
-            $399<span class="text-[17px] text-gray group-hover:text-white"
+          <p class="text-4xl lg:font-black mt-6">
+            $399<span class="text-[17px] text-gray group-hover:text-white text-graytext"
               >/home</span
             >
           </p>
@@ -307,7 +309,7 @@
             Integrations
           </p>
           <ul
-            class="flex flex-col gap-2 pt-4 text-gray group-hover:text-white"
+            class="flex flex-col gap-2 pt-4 text-gray group-hover:text-white text-graytext"
           >
             <li class="flex gap-[10px]">
               <img
@@ -374,7 +376,7 @@
             </li>
           </ul>
           <button
-            class="w-[235px] h-[45px] bg-blue-100 mt-10 rounded-lg text-blue text-bold leading-5 font-bold group-hover:bg-white"
+            class="w-[235px] bg-azure h-[45px] bg-blue-100 mt-10 rounded-lg text-blue text-bold leading-5 font-bold group-hover:bg-white"
           >
             Sign Up
           </button>
@@ -388,10 +390,10 @@
       <!-- sm:flex sm:flex-col sm:justify-center items-center -->
 
       <div
-        class="container mx-auto mt-28 mb-12 lg:mb-32 md:mb-20 md:mt-20 lg:mt-12 w-fit h-[247px] lg:w-[1109px] lg:py-10 lg:flex lg:justify-between lg:items-center sm:text-center md:text-center sm:m-auto px-5"
+        class="container mx-auto mt-28 mb-12  md:mb-14 md:mt-28 lg:mt-28 lg:mb-32 w-fit h-[247px] lg:w-[1109px] lg:py-10 lg:flex lg:justify-between lg:items-center sm:text-center md:text-center sm:m-auto px-5"
       >
         <div>
-          <p class="font-medium text-[22px] text-worktext sm:text-left md:text-center lg:text-left">
+          <p class="font-medium text-[22px]  text-worktext sm:text-left md:text-center lg:text-left">
             Work on Commercial Projects?
           </p>
           <p
@@ -430,7 +432,7 @@
         class="lg:flex hidden  lg:flex-col lg:w-full lg:h-[530px] bg-gradient-to-tl from-linearfrom to-linearto rounded-t-3xl text-white"
       >
         <div
-          class="container m-auto md:px-10 flex justify-between gap-3 lg:px-20 lg:py-10"
+          class="container m-auto md:px-10 flex justify-between gap-3 lg:px-20 lg:py-0 lg:mt-[88px]"
         >
           <div class="flex lg:gap-8 xl:gap-10">
             <ul class="flex flex-col gap-5">
@@ -682,7 +684,7 @@
               class="h-[54px] w-full md:w-[328px] border-1 border-white bg-white flex justify-between items-center rounded p-2"
             >
               <input
-                class="email1 text-black focus:outline-0 w-[158px] h-[24px] "
+                class="email1 text-black focus:outline-0 w-[200px] h-[24px] "
                 type="email"
                 name=""
                 id=""
@@ -839,100 +841,7 @@
 
 
 
- <script>
-   
-
-// top-nav responsive
-
-let toggle=document.querySelector('.toggle');
-
-toggle.addEventListener('click',function(){
-  let activetoggle=this.nextElementSibling;
-  activetoggle.classList.add('active')
-  let close=this.nextElementSibling.nextElementSibling
-  close.style.display="flex";
-  let closetoggle=this.nextElementSibling.nextElementSibling;
-  closetoggle.addEventListener('click',function(){
-    activetoggle.classList.remove('active');
-    close.style.display="none";
-  })
-  
-});
-
-
-
-
-
-let select=document.getElementsByClassName('select');
-  for(let i = 0; i< select.length; i++){
-    select[i].addEventListener('click',function(){
-      
-      if(!select[i].classList.contains('btn')){
-        this.classList.add('btn');
-      }
-      for(let j=0;j<select.length;j++){
-        if(this!=select[j]){
-          select[j].classList.remove('btn');
-        }
-      }
-    });
-}
-  
-// accordion
-
-
-let accordion=document.getElementsByClassName('accordionheader');
-for(let i=0;i<accordion.length;i++){
-      accordion[i].addEventListener('click',function(){
-      this.nextElementSibling.classList.toggle('event')
-       for(let j=0;j<accordion.length;j++){
-        if(i!=j){
-          accordion[j].nextElementSibling.classList.remove('event');
-        }
-      }
-   
-     });
-   };     
-
-
-// emailvalidation
-
-// let email1btn1=document.getElementById('emailbtn1');
-// let email1=document.getElementById('email1');
-// email1btn1.addEventListener('click',function(){
-//   if (email1.value === "") {
-//     alert("Email is required") ;
-//   }
-//   else if (!email1.value.match(/^[a-zA-Z0-9.]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+$/)) {
-//       alert("Email must be a valid email") ;
-//     }
-// })
-
-
-
-
-let email1btn1=document.getElementsByClassName('emailbtn1');
-let email1=document.getElementsByClassName('email1');
-console.log(email1btn1)
-console.log(email1)
-for(let i=0;i<email1btn1.length;i++){
-  email1btn1[i].addEventListener('click',function(){
-  let text=email1[i].value;
-  if (text=== "") {
-    alert("Email is required") ;
-  }
-  else if (!text.match(/^[a-zA-Z0-9.]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+$/)) {
-      alert("Email must be a valid email") ;
-    }
-})
-
-}
-
-
-
-
-
-    </script>
+ <script src="/src/script.js"></script>
 
 
 

@@ -19,7 +19,8 @@ module.exports = {
       'accborder':'#A3CFEE',
       'azure':'	#ebf5ff',
       'bordergray':' #ededeb',
-      'black':'#000000'
+      'black':'#000000',
+      'graytext':'#848199'
     },
     extend: {},
     screens:{
@@ -36,3 +37,5 @@ module.exports = {
      },
   plugins: [],
 }
+
+
