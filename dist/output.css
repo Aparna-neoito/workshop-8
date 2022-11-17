@@ -809,8 +809,8 @@ video {
   height: 1.5rem;
 }
 
-.h-\[600px\] {
-  height: 600px;
+.h-\[650px\] {
+  height: 650px;
 }
 
 .h-10 {
@@ -1211,6 +1211,10 @@ video {
 
 .pt-\[70px\] {
   padding-top: 70px;
+}
+
+.pb-\[800px\] {
+  padding-bottom: 800px;
 }
 
 .pt-5 {
