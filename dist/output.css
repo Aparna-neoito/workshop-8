@@ -809,8 +809,8 @@ video {
   height: 1.5rem;
 }
 
-.h-\[768px\] {
-  height: 768px;
+.h-\[600px\] {
+  height: 600px;
 }
 
 .h-10 {
@@ -1009,10 +1009,6 @@ video {
 
 .gap-3 {
   gap: 0.75rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
 }
 
 .gap-20 {
@@ -1729,6 +1725,10 @@ video {
     text-align: center;
   }
 
+  .md\:text-\[20px\] {
+    font-size: 20px;
+  }
+
   .md\:text-\[26px\] {
     font-size: 26px;
   }
@@ -1880,28 +1880,12 @@ video {
     gap: 50px;
   }
 
-  .lg\:gap-8 {
-    gap: 2rem;
+  .lg\:gap-5 {
+    gap: 1.25rem;
   }
 
   .lg\:gap-10 {
     gap: 2.5rem;
-  }
-
-  .lg\:gap-3 {
-    gap: 0.75rem;
-  }
-
-  .lg\:gap-0 {
-    gap: 0px;
-  }
-
-  .lg\:gap-1 {
-    gap: 0.25rem;
-  }
-
-  .lg\:gap-5 {
-    gap: 1.25rem;
   }
 
   .lg\:px-20 {
@@ -1970,25 +1954,11 @@ video {
     --tw-text-opacity: 1;
     color: rgb(62 159 227 / var(--tw-text-opacity));
   }
-
-  .lg\:text-red {
-    --tw-text-opacity: 1;
-    color: rgb(255 0 0 / var(--tw-text-opacity));
-  }
 }
 
 @media (min-width: 1280px) {
   .xl\:w-\[329px\] {
     width: 329px;
-  }
-
-  .xl\:gap-10 {
-    gap: 2.5rem;
-  }
-
-  .xl\:text-blue {
-    --tw-text-opacity: 1;
-    color: rgb(16 126 195 / var(--tw-text-opacity));
   }
 }
 

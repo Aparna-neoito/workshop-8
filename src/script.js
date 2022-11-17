@@ -72,7 +72,6 @@ for(let i=0;i<email1btn1.length;i++){
   email1btn1[i].addEventListener('click',function(){
   let text=email1[i].value;
   email1[i].addEventListener('click',function(){
-    email1[i].value="";
     email1[i].style.color="black";
     emaildiv[i].style.borderColor="#107EC3";
     emailmsg[i].textContent="";
